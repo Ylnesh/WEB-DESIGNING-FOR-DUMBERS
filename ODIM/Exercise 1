@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Iphone 15 Specifications</title>
 <Style>
     body {
-        background-image: url("iphone-15.webp");
+        background-image: url("https://www.the-sun.com/wp-content/uploads/sites/6/2022/09/iphone-15-op.jpg?strip=all&quality=100&w=1920&h=1080&crop=1");
         height: 100vh;
         background-size: cover;
         background-position: center;
