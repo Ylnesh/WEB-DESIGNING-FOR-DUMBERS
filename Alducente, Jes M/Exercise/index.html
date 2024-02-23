@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+
+    <title> Exercise </title>
+
+</header>
+
+<style>
+
+        .pagination a {
+
+            font-size: 30px;
+            margin: 0px 12px 0px 12px;
+            display: inline-block;
+
+        }
+
+        .pagination_back{
+
+            border: solid;
+            border-width: 2px;
+            background-color: #EDEDED;
+            border-color: #757575;
+            padding: 5px;
+            font-size: 30px;
+            font-weight: 500;
+            height: 90px;
+            width: 118px;
+            border-radius: 8.7px;
+            margin: 19px 30px 28px 20px;
+            cursor: pointer;
+            display: inline-block;
+
+        }
+
+        .pagination_next{
+
+            border: solid;
+            border-width: 2px;
+            background-color: #EDEDED;
+            border-color: #757575;
+            padding: 32px, 23px;
+            font-size: 30px;
+            font-weight: 500;
+            height: 90px;
+            width: 118px;
+            border-radius: 8.7px;
+            margin: 19px 26px 28px 30px;
+            cursor: pointer;
+            display: inline-block;
+
+        }
+
+
+        .pagination{
+
+            
+            height: 138px;
+            width: 576px;
+            background-color: #ffffff;
+            position: relative;
+            top: 15px;
+            
+        }
+
+
+        .stretch{
+
+            height: 224px;
+            width: 514px;
+            background-color: #ffffff;
+            margin-top: 50px;
+            position: relative;
+            left: 650px;
+            bottom: 209px;
+
+            
+        }
+
+
+        .stretch_button{
+
+            height: 67px;
+            width: 181px;
+            background-color: #017501;
+            color: #ffffff;
+            border: none;
+            font-size: 30px;
+            font-weight: 500;
+            margin: 19px 311px 140px 19px;
+            cursor: pointer;
+            transition: all 0.3s;
+                        
+
+
+        }
+
+        .stretch_button:hover{
+            
+            height: 112px;
+            width: 296px;
+
+        }
+
+        
+        .shadow{
+
+            height: 151px;
+            width: 396px;
+            background-color: #ffffff;
+            margin-top: 50px;
+            position: relative;
+            bottom: 170px;
+
+        }
+
+
+        .shadow_button{
+
+            height: 76px;
+            width: 229px;
+            background-color: #017501;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            border: none;
+            margin: 23px 137px 48px 30px;
+            box-shadow: 3px 6px 5px #B5B3B3;
+            cursor: pointer;
+
+        }
+
+        .shadow_button:active{
+
+            transform: translate(3px, 6px);
+            box-shadow: none;
+
+        }
+
+        .margin_padding{
+
+            height: 157px;
+            width: 645px;
+            background-color: #ffffff;
+            margin-top: 50px;
+            position: relative;
+            left: 650px;
+            bottom: 405px;
+
+        }
+
+
+        .one{
+
+            height: 71px;
+            width: 145px;
+            padding: 0px, 34px;
+            background-color: #017501;
+            color: #ffffff;
+            border:none;
+            font-size: 30px;
+            font-weight: 500;
+            margin: 24px 44px 68px 41px;
+            cursor: pointer;
+            transition: all 0.15s;
+         
+        }
+
+        .one:hover{
+
+            width: 174px;
+            padding: 0px, 48px;
+            margin: 24px 28px 68px 28px;
+
+        }
+
+        .two{
+
+            height: 71px;
+            width: 140px;
+            padding: 0px, 32px;
+            background-color: #017501;
+            color: #ffffff;
+            border: none;
+            font-size: 30px;
+            font-weight: 500;
+            margin: 24px 46px 68px 0px;
+            cursor: pointer;
+            transition: all 0.15s;
+        
+        }
+
+        .two:hover{
+
+            width: 174px;
+            padding: 0px, 50px;
+            margin: 24px 24px 68px -12px;
+        }
+      
+
+        .three{
+
+            height: 71px;
+            width: 176px;
+            padding: 0px, 34px;
+            background-color: #017501;
+            color: #ffffff;
+            border: none;
+            font-size: 30px;
+            font-weight: 500;
+            margin: 24px 0px 68px 0px;
+            cursor: pointer;
+            transition: all 0.15s;
+
+        }
+
+        .three:hover{
+
+            width: 206px;
+            padding: 0px, 48px;
+            margin: 24px -17px 68px -16px;
+
+        }
+
+        .pagination_text{
+
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .stretch_text{
+
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            left: 650px;
+            bottom: 170px;
+
+        }
+
+        .shadow_text{
+
+            color: #ffffff;
+            font-size: 30px; 
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 140px;
+        }
+        .mp_text{
+
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            left: 650px;
+            bottom: 370px;
+
+        }
+
+
+</style>
+
+<body style="background-color: #000000;">
+
+    <p1 class="pagination_text"> Pagination </p1>
+
+    <div class="pagination">
+        
+        <button class="pagination_back">
+            Back
+        </button>
+
+        <a href="#" title="Page 1">
+            1
+        </a>
+
+        <a href="#" title="Page 2">
+            2
+        </a>
+
+        <a href="#" title="Page 3">
+            3
+        </a>
+
+        <a href="#" title="Page 4">
+            4
+        </a>
+
+        <a href="#" title="Page 5">
+            5
+        </a>
+
+        <button class="pagination_next">
+            Next 
+        </button>
+
+    </div>
+
+    <p1 class="stretch_text"> Stretch </p1>
+
+    <div class="stretch">
+
+        <button class="stretch_button">
+            Stretch
+        </button>
+
+    </div>
+
+    <p1 class="shadow_text"> 3D Click </p1>
+
+   <div class="shadow">
+
+        <button class="shadow_button">
+
+            Shadow
+
+        </button>
+
+   </div>
+
+   <p1 class="mp_text"> Margin and padding together </p1>
+
+   <div class="margin_padding">
+
+
+    <button class="one">
+
+        One 
+
+    </button>
+
+    <button class="two">
+
+        Two 
+
+    </button>
+
+    <button class="three">
+
+        Three 
+
+    </button>
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+</body>
+
+</html>
