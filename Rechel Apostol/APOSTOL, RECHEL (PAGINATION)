@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 4</title>
+</head>
+
+<style>
+    .pagination{
+        text-align: center;
+    }
+    
+</style>
+
+<body>
+    <h1>
+        4h. Pagination
+    </h1>
+
+    <div class-"pagination">
+        <button>Back </button>
+            <a href-""> 1</a>
+            <a href-""> 2</a>
+            <a href-""> 3</a>
+            <a href-""> 4</a>
+            <a href-""> 5</a>
+            <button>Next</button>
+    
+    
+    
+        </div>
+        </body>
+        </html>
+
