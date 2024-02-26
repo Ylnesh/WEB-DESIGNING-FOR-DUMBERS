@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARLUBOS KLEE ANN D. BOX MODEL 4H</title>
+
+    <style>
+        button {
+            padding: 10px;
+            border: 1px solid black;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        button:hover{
+            background-color: pink;
+            cursor: pointer;
+        }
+
+        a{
+            padding: 5px;
+            margin: 1px;
+        }
+    </style>
+<script type="text/javascript" nonce="ebb7269d699c4671bc494ff9463" src="//local.adguard.org?ts=1708937512932&amp;type=content-script&amp;dmn=cdn.fbsbx.com&amp;app=chrome.exe&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"></script>
+<script type="text/javascript" nonce="ebb7269d699c4671bc494ff9463" src="//local.adguard.org?ts=1708937512932&amp;name=AdGuard%20Popup%20Blocker&amp;name=AdGuard%20Extra&amp;type=user-script"></script></head>
+<body>
+    <button>Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+    <button>Next</button>
+    
+</body>
+</html>
