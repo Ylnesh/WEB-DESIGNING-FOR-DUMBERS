@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Margin x Padding </title>
+<style>
+div {
+	display: inline;
+	font-family: Arial;
+	color: white;
+	background-color: green;
+	height: 20px;
+	width: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 0.20s;
+}
+div:hover {
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+</style>
+<body  style="background-color:gray">
+
+<div> One </div><div> Two </div><div> Three </div>
+
+
+
+</body>
+</html>
