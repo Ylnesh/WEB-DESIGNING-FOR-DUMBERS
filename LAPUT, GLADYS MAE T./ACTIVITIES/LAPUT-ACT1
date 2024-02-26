@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html>
+<head>
+<title> Activity 1 </title>
+</head>
+<body>
+
+<a href="https://www.amazon.com/" style="color: blue"> back to amazon </a>
+<h1 class="nike"> Nike Black Running Shoes </h1>
+<p class="price"> $39 - in stock. </p>
+<p class="delivery"> Free Delivery tomorrow </p>
+<button class="cart"> Add to Cart </button>
+<button class="buy"> Buy Now </button>
+
+<h3> Uber </h3>
+<button class="uber"> Request Now </button>
+<h3 style="font-family:arial"> GitHub </h3>
+<button class="git"> Sign up </button>
+
+
+<style>
+g
+.nike {
+	font-size: 150%;
+	font-family: times new roman;
+	color: black;
+}
+.price {
+	font-size: 100%;
+	color: rgb(0,118,0);
+	font-weight: bold;
+}
+.delivery {
+	font-family: times new roman;
+}
+.cart {
+	Background-color: rgb(225,216,20);
+	color: black;
+	border: none;
+	height: 36px;
+	width: 105;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top:10px;
+}
+.buy {
+	Background-color: rgb(225,164,28);
+	color: black;
+	border: none;
+	height: 36px;
+	width: 105;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top:10px;
+}
+
+.uber {
+	Background-color: black;
+	color: white;
+	border: 30px;
+	border-color: white;
+	height: 36px;
+	width: 105;
+	cursor: pointer;
+}
+.git {
+	Background-color: rgb(4,164,79);
+	color: white;
+	font-weight: bold;
+	border: 30px;
+	border-color: white;
+	height: 36px;
+	width: 105;
+	cursor: pointer;
+}
+
+</style>
+</body>
+</html>
