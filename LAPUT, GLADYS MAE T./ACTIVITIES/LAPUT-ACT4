@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html>
+<head>
+<title> Activity 4</title>
+</head>
+<body>
+
+<button class="Apply"> Apply on company website </button>
+<button class="Save"> Save </button>
+
+<style>
+
+.Apply {
+	Background-color: rgb(10, 102, 194);
+	color: white;
+	border: 30px;
+	border-color: rgb(10, 102, 194);
+	height: 36px;
+	width: 220px;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.30s;
+}
+.Save {
+	Background-color: white;
+	color: rgb(10, 102, 194);
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(10, 102, 194);
+	height: 36px;
+	width: 70px;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-left: 10px;
+	transition: background-color 0.5s, color 0.15s;
+}
+
+.Apply:hover{
+	background-color: #083376;
+}
+
+.Save:hover{
+	background-color: #d2e6fc;
+	color: rgb(10, 102, 194);
+}
+
+</style>
+</body>
+</html>
