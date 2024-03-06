@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Shadow </title>
+<style>
+div {
+	color: white;
+	background-color: Green;
+	Height: 20px;
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 3px 3px 5px gray;
+	transition: 0.20s;
+}
+
+div:hover {
+	cursor: pointer;
+	Height: 20px;
+	width: 80px;
+}
+
+div:active {
+	margin: 5px;
+	Height: 20px;
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: none;
+}
+</style>
+<head>
+<body>
+<div>Shadow</div>
+</body>
+</html>
