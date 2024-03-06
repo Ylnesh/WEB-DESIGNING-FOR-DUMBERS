@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIT THE ELSA</title>
+    <link rel="icon" type="image/x-icon" href="790.jpg">
+    <style>
+        body {
+          background-image:url(https://rare-gallery.com/uploads/posts/190413-elsa-frozen-2561x1707.jpg);
+          margin-left: 100px;
+          margin-top: 50px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        pre{
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+        }
+        .audio{
+            
+            background-color: rgb(27, 159, 211);
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin-left: 1200px;
+            margin-top: 20px;
+            height: 38px;
+            width: 60px;
+        }
+        .audio:hover{
+            opacity: 0.9;
+        }
+        .video{
+            background-color: rgb(37, 159, 207);
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin-left:100px;
+            height: 38px;
+            width: 60px;
+        }
+        .video:hover{
+            opacity: 0.9;
+        }
+        .wiki{
+            background-color: rgb(49, 162, 190);
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin-left: 100px;
+            height: 38px;
+            width: 80px;
+        }
+        .wiki:hover{
+            opacity: 0.9;
+        }
+        a{
+            color:white;
+
+        }
+        title:hover{
+            color: red;
+        }
+        
+        pre{
+            margin-right: 100px;
+        }
+      
+        </style>
+</head>
+<body> 
+
+    <button class="audio">
+        Audio
+    </button>
+
+    <button class="video">
+        Video
+    </button>
+
+    <button class="wiki">
+        Wikipedia
+    </button>
+
+    <h1 class="title"><a href="https://www.youtube.com/watch?v=L0MK7qz13bU"> ELSA</h1>
+    </a>
+    <a href="https://www.google.com/" target="_blank">
+    <img src="https://rinksidecafe.files.wordpress.com/2014/01/elsa.jpg" style="height:250px; width:250 px">
+
+    </a> 
+    <br>
+    <pre>
+        
+The snow glows white on the mountain tonight
+Not a footprint to be seen
+A kingdom of isolation
+And it looks like I'm the queen
+The wind is howling like this swirling storm inside
+Couldn't keep it in, heaven knows I tried
+Don't let them in, don't let them see
+Be the good girl you always have to be
+Conceal, don't feel, don't let them know
+Well, now they know
+Let it go, let it go
+Can't hold it back anymore
+Let it go, let it go
+Turn away and slam the door
+I don't care what they're going to say
+Let the storm rage on
+The cold never bothered me anyway
+
+    </pre>
+
+    <br>
+    <center>
+    <a href="https://www.youtube.com/watch?v=L0MK7qz13bU" target="_blank">
+    <img src="https://i.pinimg.com/originals/24/3c/db/243cdb19001c4d722994e825c9b1bd63.gif" type="gif"
+   style="height: 100px; width: 250px"></a>
+
+   
+   <a href="https://www.youtube.com/watch?v=9tcaM06eGrY" target="_blank">
+   <img src="https://i.pinimg.com/originals/10/70/6c/10706c27a81e4ab88ef476af50de6def.gif" type="gif"
+   style="height: 100px; width: 250px">
+    </a>
+
+   <br><br>
+   <audio src="Disney Frozen - Let It Go Song with Lyrics.mp3" controls autoplay loop>
+    
+   </audio>
+</center>
+</body>
+</html> 
