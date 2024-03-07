@@ -1,0 +1,9 @@
+.audio{
+    background-color: rgba(14, 106, 114, 0.84);
+    height: 600px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 180px;
+    border-radius: 10px;
+}
