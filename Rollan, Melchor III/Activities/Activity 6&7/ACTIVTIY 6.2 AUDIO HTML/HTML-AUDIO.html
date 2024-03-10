@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/17734141fc.js" crossorigin="anonymous"></script>
+
+	<title>Hmmmm</title>
+
+
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(bg.gif);
+	display: flex;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.music-player{
+	background: #FFE6E6;
+	width: 400px;
+	padding: 25px 35px;
+	text-align: center;
+	border-radius: 30px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+nav .circle{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	color: #B7C9F2;
+	box-shadow: 0 5px 10px #CCD3CA;
+}
+.song-img{
+	width: 220px;
+	border-radius: 50%;
+	border: 8px solid #fff;
+	box-shadow: 0 10px 60px #F5E8DD;
+}
+.music-player h1{
+	font-size: 20px;
+	font font-weight: 400;
+	color: #333;
+	margin-top: 20px;
+}
+.music-player p{
+	font-size: 14px;
+	color: #333;
+}
+#progress{
+	-webkit-appearance: none;
+	width: 100%;
+	height: 6px;
+	background: #FFCAD4;
+	cursor: pointer;
+	margin: 40px 0;
+}
+#progress::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	background: #FFCAD4;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 8px solid #fff;
+	box-shadow: 0 5px 5px #F5E8DD;
+}
+.controls{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.controls div{
+	width: 60px;
+	height: 60px;
+	margin: 20px;
+	background: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color:  #FFCAD4;
+	box-shadow: 0 10px 20px #F5E8DD;
+	cursor: pointer;
+
+
+}
+.controls div:nth-child(2){
+	transform: scale(1.5);
+	background: #FFCAD4;
+	color: white;
+}
+.pagination{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	}
+.pagination a{
+		color: black ;
+		text-decoration: none;
+		padding: 8px 15px;
+		display: inline-block;
+
+	}
+	.pagination a.meh{
+		background: #F7418F;
+		font-weight: 100px;
+		border-radius: 6px;
+		padding: 10px 20px;
+		transition: background 1s, border-radius 2s;
+	}
+	.pagination a:hover{
+	 background: linear-gradient(45deg, #FF90BC, #FFD0EC);
+	 border-radius: 100%;
+	}
+
+</style>
+
+<body>
+	<h1>AUDIO HTML</h1>
+	<div class="pagination">
+	<a href="file:///F:/Shouya's/IM%20SO%20FINE!/ACTIVTIY%207/ACTIVITY%206/ACTIVITY-6.1-VIDEO-HTML.html" ><</a>
+	<a href="file:///F:/Shouya's/IM%20SO%20FINE!/ACTIVTIY%207/ACTIVITY%206/ACTIVITY-6.1-VIDEO-HTML.html" >1</a>
+	<a href=""class="meh">2</a>
+	<a href="F:\Shouya's\IM SO FINE!\ACTIVTIY 7\ACTIVITY 6/ACTIVITY 6.3 PLUGINS.html" >3</a>
+	<a href="F:\Shouya's\IM SO FINE!\ACTIVTIY 7\ACTIVITY 6/Activity-6.4-HTML-YOUTUBE.html" >4</a>
+	<a href="F:\Shouya's\IM SO FINE!\ACTIVTIY 7\ACTIVITY 6/ACTIVITY 6.3 PLUGINS.html" >></a>
+	</div>
+<div class="container">
+
+	<div class="music-player">
+<nav>
+	<div class="circle">
+		<i class="fa-solid fa-angle-left"></i>
+	</div>
+	<div class="circle">
+		<i class="fa-solid fa-bars"></i>
+	</div>
+</nav>
+<img src="somi.jpg" class="song-img">
+<h1>POV: ginanon ganon ka lang</h1>
+<p>we used to talk for hours
+<p> look at us now
+
+
+	<audio controls id="song">
+		<source src="xo.mp3" type="audio/mp3">
+	</audio>
+	<input type="range" value="0" id="progress">
+
+<div class="controls">
+	<div><i class="fa-solid fa-backward"></i></div>
+	<div onclick="playPause()"><i class="fa-solid fa-play"id="ctrlIcon"></i></div>
+	<div><i class="fa-solid fa-forward"></i></div>
+</div>
+
+</div>
+
+
+</div>
+
+<script>
+
+ 	let progress = document.getElementById ("progress");
+	let song = document.getElementById ("song");
+	let ctrlIcon = document.getElementById ("ctrlIcon");
+
+	song.onloadedmetadata = function(){
+		progress.max = song.duration;
+		progress.value = song.currentTime;
+	}
+
+	function playPause(){
+		if(ctrlIcon.classList.contains("fa-pause")){
+			song.pause();
+			ctrlIcon.classList.remove("fa-pause");
+			ctrlIcon.classList.add("fa-play");
+		}
+		else{
+			song.play();
+			ctrlIcon.classList.add("fa-pause");
+			ctrlIcon.classList.remove("fa-play");
+		}
+}
+	
+
+	if(song.play()){
+		setInterval(()=>{
+			progress.value = song.currentTime;
+		},500);	
+}
+
+progress.onchange = function(){
+	song.play();
+	song.currentTime = progress.value;
+	ctrlIcon.classList.add("fa-pause");
+	ctrlIcon.classList.remove("fa-play");
+}
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
