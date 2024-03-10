@@ -1,0 +1,8 @@
+body{
+    background-color:pink;
+
+}
+.vertical-line {
+    height: 493.4px;
+    border-left: 2 px solid black;
+}
