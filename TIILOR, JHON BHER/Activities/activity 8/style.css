@@ -1,0 +1,52 @@
+a{
+    display: inline-block;
+    font-weight: 500;
+    text-decoration-line: none;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.pagination{
+    position:fixed;
+    right: 35px;
+}
+
+.num{
+    display: inline-block;
+    text-decoration-line: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.contents{
+    display: inline-block;
+    text-decoration-line: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.content{
+    margin-top: 40px;
+    color: rgb(5, 43, 5);
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: rgb(5, 43, 5);
+    border-radius: 50px;
+}
+
+.click{
+    background-color: rgb(5, 43, 5);
+    border-radius: 50px;
+}
+
+.aud{
+    width: 600px;
+    height: 100px;
+}
+
+.plug{
+    height: 400px;
+}
