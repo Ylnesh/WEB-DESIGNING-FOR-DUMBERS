@@ -1,0 +1,75 @@
+
+<!DOCTYPE _ROCHEL>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+	<title>HTMLVIDEO</title>
+</head>
+<style>
+
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Dosis',sans-serif ;
+}
+
+.yaeow {
+	width: 50%;
+	height: 50vh;
+	background-image: url(media/bg.gif);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.back-video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+@media (min-aspect-ratio:  16/9){
+	.back-video{
+		width: 50%;
+		height: auto;
+	}
+}
+@media (max-aspect-ratio:  16/9){
+	.back-video{
+		width: auto;
+		height: 80%;
+	}
+}
+.hero .btn{
+	display: inline-block;
+	background: linear-gradient(45deg, #280211, #0e0f40);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+	transition: box-shadow 1s, color 1s;
+}
+.hero .btn:hover{
+	box-shadow: 3px 8px 22px #FFC0D9;
+	color: white;
+}
+</style>
+<body>
+	<center>
+<h1 class="btn">VIDEO HTML</h1>
+<div class="hero">
+		
+		<video autoplay loop controls poster="media/yaeow.jpg">
+		<source src="media/yae.mp4" type="video/mp4">
+
+</video>
+</div>
+</center>
+</body>
